@@ -124,18 +124,18 @@ export default function ClosingSection() {
               className="flex flex-wrap items-center justify-center gap-6 lg:gap-8 mt-8"
             >
               <a
-                href="mailto:hello@businessos.app"
+                href="mailto:dhanushhari150504@gmail.com"
                 className="flex items-center gap-2 text-white/60 hover:text-cyan-400 transition-colors"
               >
                 <Mail className="w-4 h-4" />
-                <span className="text-sm">hello@businessos.app</span>
+                <span className="text-sm">dhanushhari150504@gmail.com</span>
               </a>
               <a
-                href="tel:1-800-555-0147"
+                href="tel:+918807005748"
                 className="flex items-center gap-2 text-white/60 hover:text-cyan-400 transition-colors"
               >
                 <Phone className="w-4 h-4" />
-                <span className="text-sm">1-800-555-0147</span>
+                <span className="text-sm">+91 8807005748</span>
               </a>
             </motion.div>
           </div>
