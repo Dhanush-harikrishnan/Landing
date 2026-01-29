@@ -232,9 +232,9 @@ export default function ClosingSection() {
             {/* Logo */}
             <div className="flex items-center gap-2">
               <img 
-                src="/aethops-logo.svg" 
+                src="/logo.png" 
                 alt="AETHOPS" 
-                className="w-6 h-6"
+                className="w-10 h-10"
               />
               <span className="font-display font-medium text-white text-sm">
                 AETHOPS

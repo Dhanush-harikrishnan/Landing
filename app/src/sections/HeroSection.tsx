@@ -67,7 +67,7 @@ export default function HeroSection() {
                 variants={fadeInUp}
                 className="mono text-xs uppercase tracking-[0.12em] text-white/50 mb-4 block"
               >
-                AETHOPS
+                
               </motion.span>
 
               {/* Headline */}

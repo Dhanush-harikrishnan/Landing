@@ -35,11 +35,11 @@ export default function Navigation() {
           {/* Logo */}
           <Link to="/" className="flex items-center gap-2 flex-shrink-0">
             <img 
-              src="/aethops-logo.svg" 
+              src="/logo.png" 
               alt="AETHOPS" 
-              className="w-8 h-8"
+              className="w-10 h-10"
             />
-            <span className="font-display font-semibold text-white text-lg hidden sm:block">
+            <span className="font-display font-medium text-white text-sm">
               AETHOPS
             </span>
           </Link>
