@@ -27,8 +27,8 @@ export default function ClosingSection() {
   const productLinks = ['Features', 'Pricing', 'Integrations', 'API'];
   const resourceLinks = ['Blog', 'Guides', 'Help Center', 'Webinars'];
   const legalLinks = [
-    { label: 'Privacy Policy', href: '#privacy' },
-    { label: 'Terms of Service', href: '#terms' },
+    { label: 'Privacy Policy', href: '/privacy' },
+    { label: 'Terms of Service', href: '/terms' },
     { label: 'Refund Policy', href: '#refunds' },
     { label: 'Security', href: '#security' },
   ];
@@ -231,11 +231,13 @@ export default function ClosingSection() {
           >
             {/* Logo */}
             <div className="flex items-center gap-2">
-              <div className="w-6 h-6 rounded-md bg-gradient-to-br from-cyan-400 to-cyan-600 flex items-center justify-center">
-                <span className="text-dark font-display font-bold text-xs">B</span>
-              </div>
+              <img 
+                src="/aethops-logo.svg" 
+                alt="AETHOPS" 
+                className="w-6 h-6"
+              />
               <span className="font-display font-medium text-white text-sm">
-                Business OS
+                AETHOPS
               </span>
             </div>
 
@@ -248,7 +250,7 @@ export default function ClosingSection() {
 
             {/* Copyright */}
             <p className="text-xs text-white/30">
-              © 2026 Business OS. All rights reserved.
+              © 2026 AETHOPS. All rights reserved.
             </p>
           </motion.div>
         </div>

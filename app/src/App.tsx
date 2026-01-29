@@ -1,4 +1,5 @@
 import { useEffect } from 'react';
+import { Routes, Route } from 'react-router-dom';
 
 import Navigation from './components/Navigation';
 import HeroSection from './sections/HeroSection';
@@ -8,6 +9,22 @@ import InvoicingSection from './sections/InvoicingSection';
 import InventorySection from './sections/InventorySection';
 import CRMSection from './sections/CRMSection';
 import ClosingSection from './sections/ClosingSection';
+import PrivacyPolicy from './pages/PrivacyPolicy';
+import TermsOfService from './pages/TermsOfService';
+
+function HomePage() {
+  return (
+    <>
+      <HeroSection />
+      <BentoSection />
+      <RealWorldSection />
+      <InvoicingSection />
+      <InventorySection />
+      <CRMSection />
+      <ClosingSection />
+    </>
+  );
+}
 
 function App() {
   // Preload critical resources
@@ -27,13 +44,11 @@ function App() {
       
       {/* Main content - using relative positioning with proper spacing */}
       <main className="relative">
-        <HeroSection />
-        <BentoSection />
-        <RealWorldSection />
-        <InvoicingSection />
-        <InventorySection />
-        <CRMSection />
-        <ClosingSection />
+        <Routes>
+          <Route path="/" element={<HomePage />} />
+          <Route path="/privacy" element={<PrivacyPolicy />} />
+          <Route path="/terms" element={<TermsOfService />} />
+        </Routes>
       </main>
     </div>
   );

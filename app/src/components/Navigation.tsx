@@ -1,4 +1,5 @@
 import { useState, useEffect } from 'react';
+import { Link } from 'react-router-dom';
 import { Button } from '@/components/ui/button';
 import { Menu, X } from 'lucide-react';
 
@@ -32,14 +33,16 @@ export default function Navigation() {
       <div className="container-strict">
         <div className="flex items-center justify-between h-16 lg:h-20">
           {/* Logo */}
-          <a href="#" className="flex items-center gap-2 flex-shrink-0">
-            <div className="w-8 h-8 rounded-lg bg-gradient-to-br from-cyan-400 to-cyan-600 flex items-center justify-center">
-              <span className="text-dark font-display font-bold text-sm">B</span>
-            </div>
+          <Link to="/" className="flex items-center gap-2 flex-shrink-0">
+            <img 
+              src="/aethops-logo.svg" 
+              alt="AETHOPS" 
+              className="w-8 h-8"
+            />
             <span className="font-display font-semibold text-white text-lg hidden sm:block">
-              Business OS
+              AETHOPS
             </span>
-          </a>
+          </Link>
 
           {/* Desktop Navigation */}
           <nav className="hidden md:flex items-center gap-8">
