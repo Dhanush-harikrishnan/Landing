@@ -29,8 +29,8 @@ export default function ClosingSection() {
   const legalLinks = [
     { label: 'Privacy Policy', href: '/privacy' },
     { label: 'Terms of Service', href: '/terms' },
-    { label: 'Refund Policy', href: '#refunds' },
-    { label: 'Security', href: '#security' },
+    { label: 'Refund Policy', href: '/refunds' },
+    { label: 'Security', href: '/security' },
   ];
 
   return (

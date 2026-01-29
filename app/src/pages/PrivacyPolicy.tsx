@@ -33,17 +33,29 @@ export default function PrivacyPolicy() {
           </section>
 
           <section>
-            <h2 className="text-2xl font-semibold text-white mb-4">4. Data Security</h2>
+            <h2 className="text-2xl font-semibold text-white mb-4">4. Analytics and Business Intelligence</h2>
+            <p>AETHOPS collects and analyzes usage data to improve our CRM, invoicing, and inventory management features. This includes:</p>
+            <ul className="list-disc list-inside space-y-2 mt-3">
+              <li>Feature usage patterns to optimize workflow efficiency</li>
+              <li>Performance metrics for dashboard loading and report generation</li>
+              <li>Aggregated business metrics (non-identifiable) for industry benchmarking</li>
+              <li>Error logs and system diagnostics for platform reliability</li>
+            </ul>
+            <p className="mt-3">We use this data to enhance your business operations and provide better insights through our analytics dashboard.</p>
+          </section>
+
+          <section>
+            <h2 className="text-2xl font-semibold text-white mb-4">5. Data Security</h2>
             <p>We implement appropriate security measures to protect your personal information from unauthorized access, alteration, or destruction.</p>
           </section>
 
           <section>
-            <h2 className="text-2xl font-semibold text-white mb-4">5. Your Rights</h2>
+            <h2 className="text-2xl font-semibold text-white mb-4">6. Your Rights</h2>
             <p>You have the right to access, correct, or delete your personal information. Contact us to exercise these rights.</p>
           </section>
 
           <section>
-            <h2 className="text-2xl font-semibold text-white mb-4">6. Contact Us</h2>
+            <h2 className="text-2xl font-semibold text-white mb-4">7. Contact Us</h2>
             <p>If you have questions about this Privacy Policy, please contact us at privacy@aethops.com</p>
           </section>
         </div>

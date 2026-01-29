@@ -11,6 +11,8 @@ import CRMSection from './sections/CRMSection';
 import ClosingSection from './sections/ClosingSection';
 import PrivacyPolicy from './pages/PrivacyPolicy';
 import TermsOfService from './pages/TermsOfService';
+import RefundPolicy from './pages/RefundPolicy';
+import Security from './pages/Security';
 
 function HomePage() {
   return (
@@ -48,6 +50,8 @@ function App() {
           <Route path="/" element={<HomePage />} />
           <Route path="/privacy" element={<PrivacyPolicy />} />
           <Route path="/terms" element={<TermsOfService />} />
+          <Route path="/refunds" element={<RefundPolicy />} />
+          <Route path="/security" element={<Security />} />
         </Routes>
       </main>
     </div>
